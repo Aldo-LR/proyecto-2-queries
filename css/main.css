@@ -1,0 +1,357 @@
+body{
+  background-color:#EFF7E9;
+  font-family: 'Roboto', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#00AAB5;
+  color:white;
+  height: 50px;
+  padding: 15px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo span{
+    font-size: 12px;
+    margin-left: 0.5rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li a{
+    font-size:12px;
+    margin-right: 0.8rem;
+    text-decoration: none;
+    color:white;
+}
+
+main{
+    width: 100%;
+}
+.container-intro{
+    position: relative;
+    color:white;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.container-intro h2{
+    position: absolute;
+    font-size:50px;
+    top:10%;
+    right:40%;
+    font-weight: bold;
+
+}
+.container-intro img{
+    position: static;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
+.container-intro h3{
+    position: absolute;
+    background:rgba(114, 153, 254, 0.5);
+    font-size: 25px;
+    display:flex;
+    text-align:left;
+    font-weight: 700;
+    padding: 1.5rem;
+    margin:auto;
+    top:55%;
+    left:5%;
+}
+
+.skills{
+  height: 350px;
+  width: 100%;
+  background:#7299FE;
+
+
+}
+.skills h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 1.5rem;
+  color:#B508A3;
+  font-weight: bold;
+
+}
+.container-skills{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin:0 auto;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  gap:1.5rem;
+  text-align: left;
+
+}
+.container-skills h4{
+  color:white;
+  font-weight: bold;
+}
+
+.container-skills .barra{
+  background-color:white;
+  height:17px;
+  width:80%;
+}
+
+.barra .html{
+  background-color:black;
+  height:17px;
+  width:72%;
+}
+.barra .css{
+  background-color:black;
+  height:17px;
+  width:65%;
+}
+.barra .angular{
+  background-color:black;
+  height:17px;
+  width:40%;
+}
+.barra .figma{
+  background-color:black;
+  height:17px;
+  width:60%;
+}
+.barra .javascript{
+  background-color:black;
+  height:17px;
+  width:64%;
+}
+.barra .react{
+  background-color:black;
+  height:17px;
+  width:40%;
+}
+.barra .python{
+  background-color:black;
+  height:17px;
+  width:55%;
+}
+.barra .nodejs{
+  background-color:black;
+  height:17px;
+  width:45%;
+}
+.servicios{
+  height: 350px;
+  width: 100%;
+  background:#FB7171;
+}
+.servicios h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 1.5rem;
+  color:#00CC9B;
+  font-weight: bold;
+}
+.container-servicios{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin:0 auto;
+  gap:2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.container-servicios h4{
+  color:white;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.portafolio{
+  height: 320px;
+  width: 100%;
+  background:#FFD233;
+}
+.portafolio h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 1.5rem;
+  color:#8402A5
+;
+font-weight: bold;
+}
+.container-portafolio{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  gap:1rem;
+}
+
+.clientes{
+  height: 200px;
+  width: 100%;
+  background:#3F4E62;
+}
+.clientes h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 1.5rem;
+  color:#FF00C7;
+  font-weight: bold;
+}
+
+.container-clientes{
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contacto{
+  height: 450px;
+  width: 100%;
+  background:#16A085;
+  text-align: center;
+}
+.contacto h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 1.5rem;
+  color:#CEE000;
+  font-weight: bold;
+}
+.container-contacto form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.container-contacto input{
+  width: 350px;
+  height: 3rem;
+  border-radius: 5px;
+  border:none;
+}
+.container-contacto textarea{
+  width: 765px;
+  height: 85px;
+  border-radius: 5px;
+  border:none;
+  grid-column-end: span 2;
+}
+.container-contacto button{
+  margin-top: 2rem;
+  width: 100px;
+  height: 3rem;
+  border-radius: 5px;
+  border:none;
+  background: #233451;
+  color:white;
+  font-weight: bold;
+}
+footer{
+  height: 40px;
+  background:#00AAB5;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 1.5rem;
+  color:white;
+}
+
+@media(max-width:768px){
+  .skills h3,
+  .servicios h3,
+  .portafolio h3,
+  .clientes h3,
+  .contacto h3{
+    color:white;
+    font-size: 26px;
+  }
+  header{
+    display: none;
+  }
+  .container-intro h2{
+    font-size: 40px;
+    top: 1%;
+    right: 35%;
+  }
+
+  .container-intro h3{
+    font-size: 18px;
+    top:65%;
+  }
+  .skills{
+    height: 550px;
+  }
+  .container-skills{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 25px auto;
+
+  }
+  .servicios{
+    height: 890px;
+  }
+  .container-servicios{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .portafolio{
+    height: 950px;
+  }
+  .container-portafolio{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .clientes{
+    height: 500px;
+
+  }
+  .container-clientes{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:2rem;
+
+  }
+  .contacto{
+    height: 600px;
+  }
+
+  .container-contacto form{
+    display: flex;
+    flex-direction: column;
+  }
+  .container-contacto input{
+    width:200px;
+  }
+  .container-contacto textarea{
+    width: 200px;
+  }
+  footer{
+    display: none;
+  }
+}
